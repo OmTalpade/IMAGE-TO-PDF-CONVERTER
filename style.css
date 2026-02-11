@@ -3,13 +3,16 @@
    ========= */
 
    :root {
-    --color-bg: #f4f6fb;
+    /* Light theme – blue + red on light background */
+    --color-bg: #f3f4f6;              /* light gray background */
     --color-bg-alt: #ffffff;
-    --color-text: #1b1f3b;
+    --color-text: #0f172a;            /* near-black text */
     --color-muted: #6b7280;
-    --color-primary: #4f46e5;
-    --color-primary-soft: #6366f1;
-    --color-accent: #ec4899;
+  
+    --color-primary: #1d4ed8;         /* deep blue */
+    --color-primary-soft: #3b82f6;    /* bright blue */
+    --color-accent: #ef4444;          /* vivid red */
+  
     --color-border: rgba(148, 163, 184, 0.5);
     --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.08);
     --radius-lg: 18px;
@@ -20,13 +23,16 @@
   }
   
   [data-theme="dark"] {
-    --color-bg: #020617;
+    /* Dark theme – black/near-black with blue & red accents */
+    --color-bg: #020617;              /* almost black */
     --color-bg-alt: #020617;
-    --color-text: #e5e7eb;
+    --color-text: #e5e7eb;            /* light text */
     --color-muted: #9ca3af;
-    --color-primary: #6366f1;
-    --color-primary-soft: #818cf8;
-    --color-accent: #f472b6;
+  
+    --color-primary: #2563eb;         /* bright blue for buttons/links */
+    --color-primary-soft: #60a5fa;
+    --color-accent: #f97373;          /* softer red accent */
+  
     --color-border: rgba(148, 163, 184, 0.35);
     --shadow-soft: 0 20px 50px rgba(0, 0, 0, 0.7);
   }
