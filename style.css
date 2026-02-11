@@ -3,15 +3,17 @@
    ========= */
 
    :root {
-    /* Light theme – blue + red on light background */
-    --color-bg: #f3f4f6;              /* light gray background */
+    /* Light theme – fresh green, sunny yellow, soft red */
+    --color-bg: #f7f7e8;              /* warm very light yellow/cream */
     --color-bg-alt: #ffffff;
-    --color-text: #0f172a;            /* near-black text */
+    --color-text: #052e16;            /* deep green for text */
     --color-muted: #6b7280;
   
-    --color-primary: #1d4ed8;         /* deep blue */
-    --color-primary-soft: #3b82f6;    /* bright blue */
-    --color-accent: #ef4444;          /* vivid red */
+    --color-primary: #16a34a;         /* rich green (main brand color) */
+    --color-primary-soft: #22c55e;    /* brighter green (glows, hovers) */
+    --color-accent: #facc15;          /* strong yellow accent */
+    /* You will still see some red via gradients and accents below: */
+    /* use red in gradients where --color-accent or buttons are mixed */
   
     --color-border: rgba(148, 163, 184, 0.5);
     --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.08);
@@ -23,15 +25,15 @@
   }
   
   [data-theme="dark"] {
-    /* Dark theme – black/near-black with blue & red accents */
+    /* Dark theme – deep green/black base with yellow & red accents */
     --color-bg: #020617;              /* almost black */
     --color-bg-alt: #020617;
     --color-text: #e5e7eb;            /* light text */
     --color-muted: #9ca3af;
   
-    --color-primary: #2563eb;         /* bright blue for buttons/links */
-    --color-primary-soft: #60a5fa;
-    --color-accent: #f97373;          /* softer red accent */
+    --color-primary: #22c55e;         /* bright green for primary UI */
+    --color-primary-soft: #4ade80;    /* softer neon green glow */
+    --color-accent: #f97316;          /* warm orange‑red accent (between yellow & red) */
   
     --color-border: rgba(148, 163, 184, 0.35);
     --shadow-soft: 0 20px 50px rgba(0, 0, 0, 0.7);
