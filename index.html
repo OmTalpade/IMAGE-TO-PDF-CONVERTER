@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IMAGE TO PDF CONVERTER | Free Online Image to PDF Tool</title>
+  <meta name="description" content="Use our free online IMAGE TO PDF CONVERTER to quickly turn JPG, PNG and other images into high-quality PDF files. Secure, fast, and works on all devices." />
+  <meta name="keywords" content="IMAGE TO PDF CONVERTER, image to pdf, jpg to pdf, png to pdf, online converter" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- jsPDF CDN (used only on tool page) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" crossorigin="anonymous" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="nav-left">
+        <a href="index.html" class="logo" aria-label="Image to PDF Converter Home">
+          <span class="logo-accent">Image</span> to PDF Converter
+        </a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <div class="nav-right">
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+        </ul>
+        <button class="theme-toggle" aria-label="Toggle dark and light mode">
+          <span class="theme-icon theme-icon-sun">☀</span>
+          <span class="theme-icon theme-icon-moon">🌙</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero" data-reveal>
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Fast & Secure <span>IMAGE TO PDF CONVERTER</span></h1>
+          <p>
+            Convert JPG, PNG, and other images to PDF in seconds using our
+            free online IMAGE TO PDF CONVERTER. No registration, no watermarks,
+            and fully optimized for all devices.
+          </p>
+          <div class="hero-actions">
+            <a href="#converter" class="btn primary-btn">Convert Now</a>
+            <p class="hero-note">100% free · Unlimited conversions · Secure & private</p>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-card">
+            <div class="hero-card-icon" aria-hidden="true">🖼️ ➜ 📄</div>
+            <h2>Drag, Drop & Convert</h2>
+            <p>
+              Upload your images, reorder them, and instantly download a
+              high-quality PDF file.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tool Section -->
+    <section class="tool-section" id="converter" data-reveal>
+      <div class="container">
+        <header class="section-header">
+          <h2>Online Image to PDF Converter</h2>
+          <p>Drag and drop your images below or click to browse files.</p>
+        </header>
+
+        <div class="tool-layout">
+          <div class="upload-area" id="upload-area">
+            <input
+              type="file"
+              id="image-input"
+              accept="image/*"
+              multiple
+              aria-label="Select images to convert to PDF"
+            />
+            <div class="upload-placeholder">
+              <div class="upload-icon" aria-hidden="true">⬆</div>
+              <p><strong>Drag &amp; Drop images here</strong></p>
+              <p>or click to select images from your device</p>
+              <p class="upload-hint">Supported formats: JPG, JPEG, PNG, GIF (converted as static image)</p>
+            </div>
+          </div>
+
+          <div class="tool-sidebar">
+            <div class="preview-panel">
+              <h3>Image Preview</h3>
+              <p class="preview-hint">Images will appear here before conversion.</p>
+              <div class="preview-grid" id="preview-grid" aria-live="polite"></div>
+            </div>
+
+            <div class="tool-actions">
+              <button class="btn secondary-btn" id="clear-images" type="button">
+                Clear Images
+              </button>
+              <button class="btn primary-btn" id="convert-btn" type="button" disabled>
+                Convert to PDF
+              </button>
+              <button class="btn outline-btn" id="download-btn" type="button" disabled>
+                Download PDF
+              </button>
+            </div>
+
+            <div class="loading" id="loading-indicator" aria-hidden="true">
+              <div class="spinner"></div>
+              <span>Converting images to PDF...</span>
+            </div>
+
+            <p class="tool-note">
+              Your files are processed directly in your browser using JavaScript.
+              We do not store or upload your images to any server.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section" id="features" data-reveal>
+      <div class="container">
+        <header class="section-header">
+          <h2>Why Use Our IMAGE TO PDF CONVERTER?</h2>
+          <p>Designed for speed, privacy, and simplicity.</p>
+        </header>
+
+        <div class="features-grid">
+          <article class="feature-card">
+            <h3>Fast Conversion</h3>
+            <p>
+              Our IMAGE TO PDF CONVERTER processes your images directly in the
+              browser, giving you instant results without waiting for uploads or
+              server processing.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <h3>Secure &amp; Private</h3>
+            <p>
+              Your images never leave your device. Conversion happens locally,
+              so you stay in full control of your data with no server storage.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <h3>Free to Use</h3>
+            <p>
+              Enjoy unlimited access to our online image to PDF tool with no
+              hidden fees, watermarks, or registration requirements.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <h3>Works on All Devices</h3>
+            <p>
+              Whether you are on mobile, tablet, or desktop, our responsive
+              IMAGE TO PDF CONVERTER adapts to your screen and works smoothly.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq" data-reveal>
+      <div class="container">
+        <header class="section-header">
+          <h2>IMAGE TO PDF CONVERTER – Frequently Asked Questions</h2>
+          <p>Find quick answers to common questions about this tool.</p>
+        </header>
+
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary>How do I convert an image to PDF?</summary>
+            <p>
+              Using our IMAGE TO PDF CONVERTER is simple. Click the upload area
+              or drag and drop your images into the box. Once your images are
+              loaded and previewed, click the “Convert to PDF” button. After the
+              conversion is complete, you can download the generated PDF file
+              with a single click.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Is this Image to PDF Converter free to use?</summary>
+            <p>
+              Yes, this IMAGE TO PDF CONVERTER is completely free. You can
+              convert as many images as you like without account creation,
+              subscriptions, or hidden limitations. We designed it so anyone can
+              quickly turn images into PDF files at no cost.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Is my data safe when using this tool?</summary>
+            <p>
+              Your privacy is very important to us. All image to PDF conversions
+              happen directly in your browser using JavaScript. This means your
+              images are not uploaded to any external server, and we do not see,
+              store, or track your files. Once you close the page, the images
+              are no longer available.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Can I convert multiple images into one PDF?</summary>
+            <p>
+              Absolutely. You can select or drop multiple images at once. Our
+              IMAGE TO PDF CONVERTER will merge them into a single PDF document,
+              maintaining the order shown in the preview grid. This is ideal for
+              creating multi-page documents like photo collections, receipts, or
+              scanned notes.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Does the converter work on mobile devices?</summary>
+            <p>
+              Yes, the website is built with a fully responsive design and works
+              seamlessly on smartphones and tablets. You can open the IMAGE TO
+              PDF CONVERTER in your mobile browser, upload photos from your
+              camera roll, and generate PDFs on the go without installing any
+              extra apps.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <h3>Image to PDF Converter</h3>
+        <p>
+          A fast, secure, and user-friendly IMAGE TO PDF CONVERTER that helps
+          you turn your images into professional PDF documents in seconds,
+          directly in your browser.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="#" aria-label="Visit our Facebook" class="social-icon">Fb</a>
+          <a href="#" aria-label="Visit our Twitter" class="social-icon">Tw</a>
+          <a href="#" aria-label="Visit our LinkedIn" class="social-icon">In</a>
+          <a href="#" aria-label="Visit our Instagram" class="social-icon">Ig</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Image to PDF Converter. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
